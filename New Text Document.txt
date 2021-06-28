@@ -1,2 +1,0 @@
-menu: javascript used
-scrolling : used
