@@ -20,6 +20,7 @@ a{
     text-decoration: none;
     color: var(--black-color);
 }
+
 header{
     height: 10vh;
     
@@ -598,5 +599,68 @@ section{
   .foot p a{
     font-size: 18px;
   }
+
+}
+
+
+@media (max-width:320px){
+ 
+    header{
+    height: 4vh;
+    
+  }
+    
+    .front-banner{
+    display: block;
+  }
+  section.front{
+    height: 45vh;
+  }
+  .right-side{
+    width: 70%;
+    margin: auto;
+  }
+  .about{
+    display: block;
+  }
+  .left-abo{
+    width: 100%;
+  }
+  .right-abo{
+    width: 100%;
+  }
+  section{
+    height: 38vh;
+  }
+  .aboutsection{
+    height: 100vh;
+  }
+  .skill{
+    height: 50vh;
+  }
+  .skill-flex{
+    display: block;
+  }
+  .left-skill, .right-skill{
+    width: 100%;
+    padding: 10px
+  }
+  .pro-ject{
+    display: block;
+
+  }
+  .project{
+    height: 40vh;
+  }
+  .pro-con{
+    width: 98%;
+  }
+  .foot p a{
+    font-size: 18px;
+  }
+    
+    .foot {
+  height: 15vh;
+}
 
 }
