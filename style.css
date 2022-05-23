@@ -539,9 +539,7 @@ section{
 .skill{
   height: 102vh;
 }
-.left-skill p span{
-  
-}
+
 .project{
   height: 50vh;
 }
@@ -551,11 +549,16 @@ section{
  
 }
 @media (max-width:496px){
-  .front-banner{
+  header{
+    height: 4vh;
+    
+  }
+    
+    .front-banner{
     display: block;
   }
   section.front{
-    height: 96vh;
+    height: 40vh;
   }
   .right-side{
     width: 70%;
@@ -570,28 +573,39 @@ section{
   .right-abo{
     width: 100%;
   }
+  .right-abo button a{
+    padding: 0px 0px;
+  }
+  .right-skill{
+    /* margin-left: 100px; */
+  width: 100%;
+  }
+  .left-skill{
+    margin: 15px;
+  }
+
   section{
-    height: 80vh;
+    height: 38vh;
   }
   .aboutsection{
     height: 100vh;
   }
   .skill{
-    height: 96vh;
+    height: 38vh;
   }
   .skill-flex{
     display: block;
   }
-  .left-skill, .right-skill{
+  .left-skill{
     width: 100%;
-    padding: 10px
+    padding: 0px
   }
   .pro-ject{
     display: block;
 
   }
   .project{
-    height: 102vh;
+    height: 43vh;
   }
   .pro-con{
     width: 98%;
@@ -599,6 +613,26 @@ section{
   .foot p a{
     font-size: 18px;
   }
+    
+    .foot {
+  height: 15vh;
+}
+
+.left p{
+  margin-bottom: 10px;
+}
+.left h1{
+  margin: 0px;
+}
+
+.left button{
+margin: 0px;
+
+}
+.pro-con p{
+  margin: 10px 0px;
+}
+
 
 }
 
@@ -614,7 +648,7 @@ section{
     display: block;
   }
   section.front{
-    height: 45vh;
+    height: 42vh;
   }
   .right-side{
     width: 70%;
@@ -629,6 +663,16 @@ section{
   .right-abo{
     width: 100%;
   }
+  .right-abo button a{
+    padding: 0px 0px;
+  }
+  .right-skill{
+    margin: 0px;
+    width: 100%;
+ 
+  }
+
+  
   section{
     height: 38vh;
   }
@@ -636,21 +680,22 @@ section{
     height: 100vh;
   }
   .skill{
-    height: 50vh;
+    height: 45vh;
   }
   .skill-flex{
     display: block;
   }
-  .left-skill, .right-skill{
+  .left-skill{
     width: 100%;
-    padding: 10px
+    padding: 0px
+    margin: 15px;
   }
   .pro-ject{
     display: block;
 
   }
   .project{
-    height: 40vh;
+    height: 37vh;
   }
   .pro-con{
     width: 98%;
@@ -661,6 +706,21 @@ section{
     
     .foot {
   height: 15vh;
+}
+
+.left p{
+  margin-bottom: 10px;
+}
+.left h1{
+  margin: 0px;
+}
+
+.left button{
+margin: 0px;
+
+}
+.pro-con p{
+  margin: 10px 0px;
 }
 
 }
